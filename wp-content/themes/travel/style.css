@@ -1,0 +1,130 @@
+/*
+Theme Name: Travel
+Theme URI: 
+Author: Agata Stepnik
+Author URI: http://stepnikagata./
+Description: Travel is the WordPress template, dedicated to travellers who want to start show their travel experience on Wordpress.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, threaded-comments, translation-ready
+Text Domain: tc-heavico
+Version: 1.0
+
+
+/*******************************/
+/* Travel WordPress Theme */
+/* by TurboSierpien */
+/*******************************/
+    /* CSS STRUCTURE
+
+    --- Supporting Styles ---
+
+    1. General styles
+
+    --- Travel Styles ---
+    
+    2. Header
+    3. Latest News
+    4. Quote Section
+    5. About me section
+    6. Footer
+
+    --- Travel Styles End --- 
+    */
+/*******************************/
+/* 1. General styles */
+/*******************************/
+body {
+  margin: 0; }
+
+/*******************************/
+/* 2. General styles */
+/*******************************/
+header {
+  z-index: 4;
+  position: relative; }
+
+.header__logo {
+  min-height: 110px !important; }
+
+.motoslider_wrapper {
+  -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%); }
+
+.slider {
+  box-shadow: 0px 5.8px 8px -5px rgba(1, 2, 1, 0.65);
+  -webkit-box-shadow: 0px 5.8px 8px -5px rgba(1, 2, 1, 0.65);
+  -o-box-shadow: 0px 5.8px 8px -5px rgba(1, 2, 1, 0.65);
+  -moz-box-shadow: 0px 5.8px 8px -5px rgba(1, 2, 1, 0.65); }
+
+/*******************************/
+/* 3. Latest News */
+/*******************************/
+.trip-img {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%); }
+  .trip-img img {
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 15px 20px 5px; }
+
+.trip-title {
+  transform: skewY(10deg);
+  margin-top: -30px; }
+
+.latest-news__title {
+  letter-spacing: 4px;
+  font-size: 2.5em; }
+
+/*******************************/
+/* 4. Quote section */
+/*******************************/
+.quote-section {
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0.8px 8px 0.8px rgba(1, 2, 1, 0.65);
+  -webkit-box-shadow: 0px 0.8px 8px 0.8px rgba(1, 2, 1, 0.65);
+  -moz-box-shadow: 0px 0.8px 8px 0.8px rgba(1, 2, 1, 0.65);
+  -o-box-shadow: 0px 0.8px 8px 0.8px rgba(1, 2, 1, 0.65); }
+  .quote-section__title {
+    letter-spacing: 3px;
+    font-size: 2.5em; }
+
+.callout-subtext {
+  font-size: 1.5em; }
+
+/*******************************/
+/* 5. About me section */
+/*******************************/
+.about-me .container-fluid {
+  padding-right: 0; }
+  .about-me .container-fluid .row {
+    margin-right: 0; }
+
+.img-about-me-bg {
+  width: 100%; }
+
+/*******************************/
+/* 6. Footer */
+/*******************************/
+Footer {
+  position: relative; }
+  Footer:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 2px;
+    border-top: 2px solid #000;
+    transform: skewY(3deg);
+    background: #fff; }
+
+/*******************************/
+/* 6. Media quieries */
+/*******************************/
+@media (min-width: 768px) {
+  .about-me__img {
+    padding-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
